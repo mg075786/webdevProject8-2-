@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rent-A-Pet: Opening Page</title>
+
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+<link href="print.css" rel="stylesheet" media="print" type="text/css">
+<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+
+    <div class="container">
+
+
+
+</div>
+
+<header>
+    <a href="" onmouseover="document.getElementById('logo').src='Images/Logo2.jpg';" onmouseout="document.getElementById('logo').src='Images/Logo.jpg';">
+        <img src="Images/Logo.jpg" width="133" height="126" alt="logo" id="logo"  style="border:none;">
+    </a>
+
+    
+    <img class="banner" src="Images/Banner-Project 5 copy.jpg" alt="Banner">
+                                                                                            <nav class="nav">
+                                                                                                <ul class="nav li">
+                                                                                                    <li><a href="#">Home</a></li>
+                                                                                                    <li><a href="AboutUs.html">About Us</a> </li>
+                                                                                                    <li><a href="Tributes.html">Tributes</a></li>
+                                                                                                    <li><a href="#">Survey</a></li>
+                                                                                                    <li><a href="#">Favorites</a></li>
+                                                                                                </ul>
+                                                                                            </nav>
+</header>
+<section>
+    <article class="article">
+        <h1>
+            Welcome to Rent A Pet! 
+        </h1>
+        <p>If you love to interact with pets like we do, you should enjoy looking around this site.  Take a look at our Pet Profiles and take the opportunity to complete our survey.
+        </p>
+        <div>
+            <div id="thumbs">
+                <img src="Images/Thumbnails/Image1Sm.jpg" alt="Girl with Hamster" onmouseover="swapImage(0);" />
+                <img src="Images/Thumbnails/Image2Sm.jpg" alt="Snake" onmouseover="swapImage(1);" />
+                <img src="Images/Thumbnails/Image3Sm.jpg" alt="Dog" onmouseover="swapImage(2);" />
+                <img src="Images/Thumbnails/Image4Sm.jpg" alt="Two Dog" onmouseover="swapImage(3);" />
+                <br />	
+            </div>
+        
+            <div id="image">
+                
+                <img id="theImage" src="Images/Fullsize/Image1Lg.jpg" alt="Girl with Hamster"/>
+                <h3 id="bottomText">Girl With Hamster</h3>
+            </div>
+        </div> 
+        <br>
+        <div>
+            <img src="Images/project3images/Tributes/BassetHoundSM.jpg" alt="Basset Hound" >
+            <p>
+                My name is Bessie Anderson and I currently live in a retirement community that has a prohibition on pets.  I really wanted to have a small dog that I could take out for walks, but I though it was not possible.
+            </p>
+            <p><a href="Tributes.html#homepagetribute">More>></a></p>
+        </div>  
+    </article>
+</section>
+<footer>
+    <p><a href="email:mg075786@stu.provo.edu">Email</a></p>
+    <p>
+        This web site has been created solely for educational purposes.
+    </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, serif; 
+    font-size: medium; 
+    background-color: white; 
+    color: #000000;
+    
+}
+
+.body {
+    color:#fff;
+}
+
+.thumbnailimages {
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+
+
+
+a:link {
+    color: #522E03;
+}
+
+a:hover {
+    color: #522E03;
+}
+
+a:visited {
+    color: #52330E;
+}
+
+.tablePattern {
+    margin: auto;
+    width: 600px;
+}
+table {
+    border: solid 1px #000000;
+    border-spacing: 5px; 
+    border-collapse: separate;
+    padding: 3px;
+    color: #000000;
+    
+}
+
+th {
+    border: solid 1px #000000; 
+    width: 15%;
+    border-spacing: 5px; 
+    border-collapse: separate;
+    background-color: #52330E;
+}
+
+
+
+td {
+    border: solid 1px #000000; 
+    width: 15%;
+    border-spacing: 5px; 
+    border-collapse: separate;
+}
+
+
+
+
+
+
+.thumbnailimages {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+a:link {
+    color: #0A1236;
+}
+
+a:hover {
+    color: #522E03;
+}
+
+a:visited {
+    color: #52330E;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 3px 4px ;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+    border: #754000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px;
+    align-items: center;
+    
+}
+
+
+
+
+section {
+    width: 100%;
+    background-image: url('Images/backimage.jpg');
+    background-repeat: repeat-y;
+    display: flex;
+    margin: auto;
+    padding: 2px;
+    
+    
+}
+
+.nav {
+    display: none;
+    width: 25%;
+    
+    
+}
+
+.nav li{
+    list-style: none;
+    width: 100px;
+    color: #754000;
+    border: 1px solid black;
+    margin: 6px;
+    background-color: white;
+    padding: 2px;
+
+
+}
+
+
+
+.article {
+    width: 95%;
+    text-align: left;
+    color:#fff;
+}
+
+footer {
+    display: none;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 900px;
+    background-color: #fff;
+    border: #754000;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px;
+    align-items: center;
+}
+
+
+
+#thumbs, #image {
+    width: 700px;
+    border: solid 1px 000;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: #000;
+    background: #eee;
+    padding: 5px;
+}
+
+#thumbs {
+    margin-top: 10px;
+}
+
+        
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+}
+
+#image{
+    height:400px;
+}
+
+.instructions{
+    font-style:italic;
+}
