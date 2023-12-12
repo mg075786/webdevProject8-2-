@@ -5,7 +5,9 @@ body {
     color: #000000;
     
 }
-
+.print {
+    display: none;
+}
 .body {
     color:#fff;
 }
