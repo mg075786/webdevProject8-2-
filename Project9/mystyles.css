@@ -17,7 +17,18 @@ display: block;
 margin-left: auto;
 margin-right: auto; 
 }
-
+ol, ul { 
+    list-style-type: none;
+     }
+.pernes{
+    font-style: italic;
+}
+.exComments{
+    display: flex;
+    height: 75px;
+    width: 350px;
+    border: 1px soild black;
+ }
 
 
 
