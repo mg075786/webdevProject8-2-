@@ -18,8 +18,12 @@ margin-left: auto;
 margin-right: auto; 
 }
 
-
-
+.banner{
+    display: none;
+}
+.none{
+    display: none;
+}
 a:link {
     color: #522E03;
 }
@@ -142,7 +146,7 @@ section {
     margin: 6px;
     background-color: white;
     padding: 2px;
-
+    display: none;
 
 }
 
